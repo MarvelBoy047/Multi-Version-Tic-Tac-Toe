@@ -25,7 +25,7 @@ The goal is to provide a side-by-side comparison of the implementation complexit
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository-url> multi-version-tic-tac-toe
+    git clone https://github.com/MarvelBoy047/Multi-Version-Tic-Tac-Toe.git
     cd multi-version-tic-tac-toe
     ```
 
