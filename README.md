@@ -36,12 +36,21 @@ The goal is to provide a side-by-side comparison of the implementation complexit
     # or
     yarn install
     ```
+3.  **Start the development server:**
 
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+    The application will open in your browser (usually at `http://localhost:5173/` or similar).
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Running the Application
 
 The project is configured to run via Vite. By default, it might be set up to run either the Native React or Redux version. You can switch between them by modifying the `src/App.jsx` file.
 
-1.  **Choose the State Management Version:**
+1. **Choose the State Management Version:**
 
     Open `src/App.jsx`. You will find code similar to this:
 
@@ -87,16 +96,6 @@ The project is configured to run via Vite. By default, it might be set up to run
     ```
 
     Modify `src/App.jsx` to uncomment the block corresponding to the version you want to run and comment out the others.
-
-2.  **Start the development server:**
-
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    ```
-
-    The application will open in your browser (usually at `http://localhost:5173/` or similar).
 
 ## Code Structure Overview
 
